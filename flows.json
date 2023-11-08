@@ -1,0 +1,786 @@
+[
+    {
+        "id": "d4396a33225ec32c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fc23440595ccee7b",
+        "type": "ui_switch",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "label": "Room - B",
+        "tooltip": "",
+        "group": "168952fb690d35ae",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 260,
+        "y": 400,
+        "wires": [
+            [
+                "34491fc2124b6325"
+            ]
+        ]
+    },
+    {
+        "id": "3b4597ad47022d59",
+        "type": "ui_switch",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "label": "GARAGE",
+        "tooltip": "",
+        "group": "7018b65788c55caa",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "779352f680b1f9d4"
+            ]
+        ]
+    },
+    {
+        "id": "ed21fea89556d7cf",
+        "type": "ui_switch",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "label": "KITCHEN",
+        "tooltip": "",
+        "group": "e08770076a71e871",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 40,
+        "wires": [
+            [
+                "f7e99eccbda139a0"
+            ]
+        ]
+    },
+    {
+        "id": "aa8bc8fa7c7b1959",
+        "type": "ui_switch",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "label": "douche",
+        "tooltip": "",
+        "group": "9baedc72a8ead2a5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "9985bb1d8cf67f4c"
+            ]
+        ]
+    },
+    {
+        "id": "34491fc2124b6325",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "pin": "17",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 500,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "779352f680b1f9d4",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "pin": "4",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 492,
+        "y": 254,
+        "wires": []
+    },
+    {
+        "id": "f7e99eccbda139a0",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "pin": "16",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 460,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "9985bb1d8cf67f4c",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "pin": "26",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 480,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "45a3614cc48cd6c9",
+        "type": "ui_switch",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "label": "Room - R",
+        "tooltip": "",
+        "group": "168952fb690d35ae",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 280,
+        "y": 580,
+        "wires": [
+            [
+                "7cc1fb29aba5a4d9"
+            ]
+        ]
+    },
+    {
+        "id": "7cc1fb29aba5a4d9",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "pin": "22",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 520,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ddd9d0d4ee073ce4",
+        "type": "ui_switch",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "label": "Room - G",
+        "tooltip": "",
+        "group": "168952fb690d35ae",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 260,
+        "y": 500,
+        "wires": [
+            [
+                "05181f528bb94bef"
+            ]
+        ]
+    },
+    {
+        "id": "05181f528bb94bef",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "pin": "27",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 500,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "55a13c1bab3a8158",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "Room",
+        "pin": "13",
+        "set": "",
+        "level": "0",
+        "freq": "100",
+        "out": "pwm",
+        "bcm": true,
+        "x": 1270,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "10be93b5f8e46f1f",
+        "type": "inject",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 1030,
+        "y": 200,
+        "wires": [
+            [
+                "55a13c1bab3a8158"
+            ]
+        ]
+    },
+    {
+        "id": "c78e5720e8ecbfab",
+        "type": "inject",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 1045.765625,
+        "y": 323.75,
+        "wires": [
+            [
+                "55a13c1bab3a8158"
+            ]
+        ]
+    },
+    {
+        "id": "8c6d1d0a50fefe39",
+        "type": "ui_button",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "group": "168952fb690d35ae",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Open",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "20",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1030,
+        "y": 140,
+        "wires": [
+            [
+                "55a13c1bab3a8158"
+            ]
+        ]
+    },
+    {
+        "id": "cd22c874b206c970",
+        "type": "ui_button",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "group": "168952fb690d35ae",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Close",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1070,
+        "y": 480,
+        "wires": [
+            [
+                "55a13c1bab3a8158"
+            ]
+        ]
+    },
+    {
+        "id": "6f92b9b0546f0014",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "Room",
+        "pin": "5",
+        "set": "",
+        "level": "0",
+        "freq": "100",
+        "out": "pwm",
+        "bcm": true,
+        "x": 1130,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "133cfa332bd548cf",
+        "type": "inject",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 890,
+        "y": 800,
+        "wires": [
+            [
+                "6f92b9b0546f0014"
+            ]
+        ]
+    },
+    {
+        "id": "e31937ee70d7c43f",
+        "type": "inject",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 905.765625,
+        "y": 923.75,
+        "wires": [
+            [
+                "6f92b9b0546f0014"
+            ]
+        ]
+    },
+    {
+        "id": "38d65a5679e9029a",
+        "type": "ui_button",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "group": "6cb198c347862e48",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Open",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 890,
+        "y": 740,
+        "wires": [
+            [
+                "6f92b9b0546f0014"
+            ]
+        ]
+    },
+    {
+        "id": "2de414d8ae5eb0d0",
+        "type": "ui_button",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "group": "6cb198c347862e48",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Close",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "20",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 930,
+        "y": 1080,
+        "wires": [
+            [
+                "6f92b9b0546f0014"
+            ]
+        ]
+    },
+    {
+        "id": "5ffe2f20d36c1dfd",
+        "type": "rpi-gpio out",
+        "z": "d4396a33225ec32c",
+        "name": "Room",
+        "pin": "6",
+        "set": "",
+        "level": "0",
+        "freq": "100",
+        "out": "pwm",
+        "bcm": true,
+        "x": 500.765625,
+        "y": 1016.75,
+        "wires": []
+    },
+    {
+        "id": "cdbd109e0fec511f",
+        "type": "inject",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 260.765625,
+        "y": 996.75,
+        "wires": [
+            [
+                "5ffe2f20d36c1dfd"
+            ]
+        ]
+    },
+    {
+        "id": "b0ad4622957c3698",
+        "type": "inject",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 276.53125,
+        "y": 1120.5,
+        "wires": [
+            [
+                "5ffe2f20d36c1dfd"
+            ]
+        ]
+    },
+    {
+        "id": "5a88d74b694ab6ae",
+        "type": "ui_button",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "group": "7018b65788c55caa",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Open",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "20",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 260.765625,
+        "y": 936.75,
+        "wires": [
+            [
+                "5ffe2f20d36c1dfd"
+            ]
+        ]
+    },
+    {
+        "id": "79f4ccb0355c7b05",
+        "type": "ui_button",
+        "z": "d4396a33225ec32c",
+        "name": "",
+        "group": "7018b65788c55caa",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Close",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 300.765625,
+        "y": 1276.75,
+        "wires": [
+            [
+                "5ffe2f20d36c1dfd"
+            ]
+        ]
+    },
+    {
+        "id": "168952fb690d35ae",
+        "type": "ui_group",
+        "name": "Window",
+        "tab": "8c8f17ea1dc219ee",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7018b65788c55caa",
+        "type": "ui_group",
+        "name": "Garage",
+        "tab": "537710f796ddfec6",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e08770076a71e871",
+        "type": "ui_group",
+        "name": "Kitchen",
+        "tab": "00c7386034d27f26",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9baedc72a8ead2a5",
+        "type": "ui_group",
+        "name": "Douche",
+        "tab": "93f26c5642771c33",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6cb198c347862e48",
+        "type": "ui_group",
+        "name": "Entrance",
+        "tab": "796dc5046cceeb40",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8c8f17ea1dc219ee",
+        "type": "ui_tab",
+        "name": "Room",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "537710f796ddfec6",
+        "type": "ui_tab",
+        "name": "Garage",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "00c7386034d27f26",
+        "type": "ui_tab",
+        "name": "Kitchen",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "93f26c5642771c33",
+        "type": "ui_tab",
+        "name": "Douche",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "796dc5046cceeb40",
+        "type": "ui_tab",
+        "name": "Entrance",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
